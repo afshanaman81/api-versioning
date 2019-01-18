@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const adminController = require('../controllers/adminController')
+const adminController = require('../../controllers/v1/adminController')
 
 //**** API v1 ADMIN ROUTES ****//
 router.get('/user/:id/permissions', adminController.getPermissions)
