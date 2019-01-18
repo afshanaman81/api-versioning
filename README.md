@@ -1,7 +1,8 @@
 # api-versioning
 Simple API versioning system using nested express routers
 
-Master Branch:
+## Master Branch:
+
 The versioning is organized in a top-down fashion. Folders corresponding to the versions (V1, V2 and so on) are at the top level
 ```
 ├── api
@@ -22,7 +23,8 @@ The versioning is organized in a top-down fashion. Folders corresponding to the 
 ├── helpers
 ├── index.js
 ```
-'v1' Branch:
+## 'v1' Branch:
+
 The versioning is organized in a nested fashion. Folders corresponding to the versions (V1, V2 and so on) are inside the folders where changes have occured. 
 For example, at the sublevels of 'routes' and 'controllers'
 ```
