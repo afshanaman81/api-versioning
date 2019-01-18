@@ -5,20 +5,23 @@ Master Branch:
 The versioning is organized in a top-down fashion. Folders corresponding to the versions (V1, V2 and so on) are at the top level
 ```
 ├── api
+│   ├── controllers
+│   ├── models
+│   ├── services
 │   ├── v1
 │   │   ├── controllers
 │   │   │   ├── adminController.js
 │   │   │   └── userController.js
-│   │   └── routes
-│   │   |   ├── admin.js
-│   │   |   └── user.js
 │   │   ├── index.js
+│   │   └── routes
+│   │       ├── admin.js
+│   │       └── user.js
 │   └── v2
 │       ├── controllers
 │       │   └── userController.js
-│       └── routes
-│       |   └── user.js
 │       ├── index.js
+│       └── routes
+│           └── user.js
 ├── helpers
 ├── index.js
 ```
