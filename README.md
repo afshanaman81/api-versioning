@@ -1,5 +1,5 @@
 # api-versioning
-Simple API versioning system using nested express routers
+Simple API versioning system using a hierarchy of express routers
 
 ## Master Branch:
 
