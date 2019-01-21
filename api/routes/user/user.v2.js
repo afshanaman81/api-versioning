@@ -1,6 +1,6 @@
 const router = require('express').Router()
-const userCtrlV1 = require('../controllers/userController')
-const userCtrlV2 = require('../controllers/userController.v2')
+const userCtrlV1 = require('../../controllers/user/userController')
+const userCtrlV2 = require('../../controllers/user/userController.v2')
 
 //**** API v2 USER ROUTES ****//
 router.get('/user', userCtrlV2.getUsers)

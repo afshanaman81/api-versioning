@@ -6,7 +6,7 @@ router.get('/', (req, res) =>
 );
 
 //**** API version 2 Routes ****//
-router.use('/', require('./user.v2'));
+router.use('/', require('./user/user.v2'));
 
 
 //**** API version 1 Routes ****//

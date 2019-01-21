@@ -4,7 +4,7 @@ const router = require('express').Router()
 router.get('/', (req, res) => res.json("Welcome to API version 1"))
 
 //**** API version 1 Routes ****//
-router.use('/', require('./user'))
+router.use('/', require('./user/user'))
 router.use('/', require('./admin'))
 
 module.exports = router
