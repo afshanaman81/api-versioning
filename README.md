@@ -66,3 +66,25 @@ In this case, there are no folders corresponding to the V1 or V2 version of the 
 ├── helpers
 ├── index.js
 ```
+
+## 'v3' Branch
+
+Similar to the 'v2' branch, there are no folders corresponding to the V1 or V2 version of the API. The different versions of a router/controller are organized in individual folders at the sub-folder level of the routes/controllers folders. For example, if there is a version 2 of 'user' route, there will be a folder 'user' inside 'routes', with 2 files, one for each version of the API. A a postfix distinguises them such as user.js and user.v2.js. The disadvantage in this scheme is the multitude of sub-folders a developer will have to navigate to find different files. 
+
+```
+├── api
+│   ├── controllers
+│   │   ├── adminController.js
+│   │   └── user
+│   │       ├── userController.js
+│   │       └── userController.v2.js
+│   └── routes
+│       ├── admin.js
+│       ├── index.v1.js
+│       ├── index.v2.js
+│       └── user
+│           ├── user.js
+│           └── user.v2.js
+├── helpers
+├── index.js
+```
