@@ -6,10 +6,10 @@ router.get('/', (req, res) =>
 );
 
 //**** API version 2 Routes ****//
-router.use('/', require('../v2/user'));
+router.use('/', require('./user.v2'));
 
 
 //**** API version 1 Routes ****//
-router.use('/', require('../v1/admin'));
+router.use('/', require('./admin'));
 
 module.exports = router;

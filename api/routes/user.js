@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const userController = require('../../controllers/v1/userController')
+const userController = require('../controllers/userController')
 
 //**** API v1 USER ROUTES ****//
 router.get('/user', userController.getUsers)
